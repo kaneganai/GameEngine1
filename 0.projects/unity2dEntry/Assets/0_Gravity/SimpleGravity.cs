@@ -41,7 +41,7 @@ public class SimpleGravity : MonoBehaviour
     void Update()
     {
         //°‚É“–‚½‚Á‚Ä‚é‚©‚Ì”»’è
-        if (this.transform.position.y <= (_floorY +_floorSize))
+        if (this.transform.position.y < (_floorY +_floorSize))
         {
             _hitFloorFlag = true;
         }
